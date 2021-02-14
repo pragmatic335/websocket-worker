@@ -64,3 +64,291 @@
 2021-02-15 01:00:08 pid:28022 Workerman[index.php] has been stopped
 2021-02-15 01:00:12 pid:28289 Workerman[index.php] status 
 2021-02-15 01:00:12 pid:28289 Workerman[index.php] not run
+2021-02-15 01:53:34 pid:30032 Workerman[index.php] start in DEBUG mode
+2021-02-15 01:54:39 pid:30195 Workerman[index.php] status 
+2021-02-15 02:18:07 pid:30032 Workerman[index.php] stopping ...
+2021-02-15 02:18:07 pid:30032 Workerman[index.php] has been stopped
+2021-02-15 02:18:12 pid:31268 Workerman[index.php] start in DEBUG mode
+2021-02-15 02:18:19 pid:31270 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:18:19 pid:31270 Worker[31270] process terminated
+2021-02-15 02:18:19 pid:31268 worker[none:31270] exit with status 64000
+2021-02-15 02:19:23 pid:31268 Workerman[index.php] stopping ...
+2021-02-15 02:19:23 pid:31268 Workerman[index.php] has been stopped
+2021-02-15 02:19:29 pid:31325 Workerman[index.php] start in DEBUG mode
+2021-02-15 02:27:17 pid:31328 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:27:17 pid:31328 Worker[31328] process terminated
+2021-02-15 02:27:17 pid:31325 worker[none:31328] exit with status 64000
+2021-02-15 02:27:57 pid:31327 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:27:57 pid:31327 Worker[31327] process terminated
+2021-02-15 02:27:57 pid:31325 worker[none:31327] exit with status 64000
+2021-02-15 02:27:57 pid:31329 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:27:57 pid:31329 Worker[31329] process terminated
+2021-02-15 02:27:57 pid:31325 worker[none:31329] exit with status 64000
+2021-02-15 02:31:00 pid:31326 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:31:00 pid:31326 Worker[31326] process terminated
+2021-02-15 02:31:00 pid:31325 worker[none:31326] exit with status 64000
+2021-02-15 02:32:45 pid:31325 Workerman[index.php] stopping ...
+2021-02-15 02:32:45 pid:31807 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2457): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#6 [internal function]: Workerman\Events\Select->signalHandler()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#12 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#13 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#14 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#15 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#16 {main}
+2021-02-15 02:32:45 pid:31869 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2457): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#6 [internal function]: Workerman\Events\Select->signalHandler()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#12 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#13 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#14 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#15 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#16 {main}
+2021-02-15 02:32:45 pid:31325 worker[none:31869] exit with status 64000
+2021-02-15 02:32:45 pid:31325 worker[none:31807] exit with status 64000
+2021-02-15 02:32:45 pid:31325 Workerman[index.php] has been stopped
+2021-02-15 02:32:59 pid:32163 Workerman[index.php] start in DEBUG mode
+2021-02-15 02:35:55 pid:32166 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:35:55 pid:32166 Worker[32166] process terminated
+2021-02-15 02:35:55 pid:32163 worker[none:32166] exit with status 64000
+2021-02-15 02:36:24 pid:32461 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#13 {main}
+2021-02-15 02:36:24 pid:32461 Worker[32461] process terminated
+2021-02-15 02:36:24 pid:32163 worker[none:32461] exit with status 64000
+2021-02-15 02:37:23 pid:32167 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:37:23 pid:32167 Worker[32167] process terminated
+2021-02-15 02:37:23 pid:32163 worker[none:32167] exit with status 64000
+2021-02-15 02:40:10 pid:32809 Workerman[index.php] stop 
+2021-02-15 02:40:10 pid:32809 Workerman[index.php] is stopping ...
+2021-02-15 02:40:15 pid:32809 Workerman[index.php] stop fail
+2021-02-15 02:40:35 pid:32838 Workerman[index.php] reload 
+2021-02-15 02:40:40 pid:32843 Workerman[index.php] stop 
+2021-02-15 02:40:40 pid:32843 Workerman[index.php] is stopping ...
+2021-02-15 02:40:45 pid:32843 Workerman[index.php] stop fail
+2021-02-15 02:41:02 pid:32163 Workerman[index.php] stopping ...
+2021-02-15 02:41:02 pid:32164 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Protocols/Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(600): Workerman\Protocols\Websocket::input()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#11 {main}
+2021-02-15 02:41:02 pid:32510 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:21
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(379): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/index.php(17): Workerman\Connection\TcpConnection->send()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#6 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#12 /var/www/websocket-workerman/index.php(31): Workerman\Worker::runAll()
+#13 {main}
+2021-02-15 02:41:02 pid:32164 Worker[32164] process terminated
+2021-02-15 02:41:02 pid:32510 Worker[32510] process terminated
+2021-02-15 02:41:02 pid:32163 worker[none:32510] exit with status 5247
+2021-02-15 02:41:02 pid:32163 worker[none:32164] exit with status 64000
+2021-02-15 02:41:02 pid:32163 Workerman[index.php] has been stopped
+2021-02-15 02:41:26 pid:32889 Workerman[index.php] status 
+2021-02-15 02:41:26 pid:32889 Workerman[index.php] not run
+2021-02-15 02:41:35 pid:32891 Workerman[index.php] start in DEBUG mode
+2021-02-15 02:42:36 pid:32937 Workerman[index.php] status 
+2021-02-15 02:44:16 pid:33174 Workerman[index.php] status 
+2021-02-15 02:44:49 pid:32891 Workerman[index.php] stopping ...
+2021-02-15 02:44:49 pid:32893 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:23
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2457): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#6 [internal function]: Workerman\Events\Select->signalHandler()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#12 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#13 /var/www/websocket-workerman/index.php(33): Workerman\Worker::runAll()
+#14 {main}
+2021-02-15 02:44:49 pid:32892 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:23
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2457): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#6 [internal function]: Workerman\Events\Select->signalHandler()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#12 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#13 /var/www/websocket-workerman/index.php(33): Workerman\Worker::runAll()
+#14 {main}
+2021-02-15 02:44:49 pid:32891 worker[none:32892] exit with status 64000
+2021-02-15 02:44:49 pid:32891 worker[none:32893] exit with status 64000
+2021-02-15 02:44:49 pid:32891 Workerman[index.php] has been stopped
+2021-02-15 02:46:11 pid:33239 Workerman[index.php] start in DEBUG mode
+2021-02-15 02:48:35 pid:33239 Workerman[index.php] stopping ...
+2021-02-15 02:48:35 pid:33243 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php on line 931 and exactly 2 expected in /var/www/websocket-workerman/index.php:23
+Stack trace:
+#0 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(931): {closure}()
+#1 /var/www/websocket-workerman/vendor/workerman/workerman/Connection/TcpConnection.php(834): Workerman\Connection\TcpConnection->destroy()
+#2 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2457): Workerman\Connection\TcpConnection->close()
+#3 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1867): Workerman\Worker->stop()
+#4 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1184): Workerman\Worker::stopAll()
+#5 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(162): Workerman\Worker::signalHandler()
+#6 [internal function]: Workerman\Events\Select->signalHandler()
+#7 /var/www/websocket-workerman/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#8 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#9 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#10 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#11 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#12 /var/www/websocket-workerman/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#13 /var/www/websocket-workerman/index.php(33): Workerman\Worker::runAll()
+#14 {main}
+2021-02-15 02:48:35 pid:33239 worker[none:33243] exit with status 64000
+2021-02-15 02:48:35 pid:33239 Workerman[index.php] has been stopped

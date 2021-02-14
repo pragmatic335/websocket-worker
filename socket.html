@@ -4,16 +4,38 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<script>
-    let ws = new WebSocket('ws://0.0.0.0:8001');
-    ws.addEventListener('message', (event) => {
-        console.log('Message from server ' + event.data);
-    });
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
 
-    ws.onopen = () => {
-        ws.send('Hello from js');
-    };
-</script>
+    .unit {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: green;
+        border: 3px solid black;
+        top: 0;
+        left: 0;
+    }
+</style>
+<body id="wrapper">
+    <div class="unit" id="unit"></div>
+
+    <script>
+        // let ws = new WebSocket('ws://0.0.0.0:8001');
+        // ws.addEventListener('message', (event) => {
+        //     console.log('Message from server ' + event.data);
+        // });
+        //
+        // ws.onopen = () => {
+        //     ws.send('Hello from js');
+        // };
+    </script>
+    <script src="app.js"></script>
 </body>
 </html>
