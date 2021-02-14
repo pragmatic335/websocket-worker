@@ -1,0 +1,66 @@
+2021-02-15 00:07:20 pid:25517 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:07:44 pid:25532 Workerman[index.php] status 
+2021-02-15 00:23:07 pid:26203 Workerman[index.php] status 
+2021-02-15 00:23:19 pid:26206 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:23:19 pid:26206 Workerman[index.php] already running
+2021-02-15 00:23:44 pid:26209 Workerman[index.php] status 
+2021-02-15 00:24:07 pid:26225 Workerman[index.php] stop 
+2021-02-15 00:24:07 pid:26225 Workerman[index.php] is stopping ...
+2021-02-15 00:24:12 pid:26225 Workerman[index.php] stop fail
+2021-02-15 00:24:27 pid:26235 Workerman[index.php] stop 
+2021-02-15 00:24:27 pid:26235 Workerman[index.php] is stopping ...
+2021-02-15 00:24:32 pid:26235 Workerman[index.php] stop fail
+2021-02-15 00:24:44 pid:26236 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:24:44 pid:26236 Workerman[index.php] already running
+2021-02-15 00:27:44 pid:26562 Workerman[index.php] status 
+2021-02-15 00:27:52 pid:26576 Workerman[index.php] stop 
+2021-02-15 00:27:52 pid:26576 Workerman[index.php] is stopping ...
+2021-02-15 00:27:57 pid:26576 Workerman[index.php] stop fail
+2021-02-15 00:28:49 pid:26625 Workerman[index.php] stop 
+2021-02-15 00:28:49 pid:26625 Workerman[index.php] is stopping ...
+2021-02-15 00:28:54 pid:26625 Workerman[index.php] stop fail
+2021-02-15 00:28:56 pid:26639 Workerman[index.php] stop 
+2021-02-15 00:28:56 pid:26639 Workerman[index.php] is stopping ...
+2021-02-15 00:29:01 pid:26639 Workerman[index.php] stop fail
+2021-02-15 00:29:05 pid:26645 Workerman[index.php] status 
+2021-02-15 00:29:23 pid:26653 Workerman[index.php] reload 
+2021-02-15 00:29:31 pid:26655 Workerman[index.php] status 
+2021-02-15 00:29:36 pid:26660 Workerman[index.php] reload 
+2021-02-15 00:29:42 pid:26661 Workerman[index.php] stop 
+2021-02-15 00:29:42 pid:26661 Workerman[index.php] is stopping ...
+2021-02-15 00:29:47 pid:26661 Workerman[index.php] stop fail
+2021-02-15 00:32:07 pid:26782 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:33:23 pid:26835 Workerman[index.php] status 
+2021-02-15 00:34:47 pid:26991 Workerman[index.php] connections 
+2021-02-15 00:35:11 pid:27003 Workerman[index.php] status 
+2021-02-15 00:38:47 pid:27218 Workerman[index.php] reload 
+2021-02-15 00:38:48 pid:26782 Workerman[index.php] reloading
+2021-02-15 00:39:05 pid:27244 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:39:05 pid:27244 Workerman[index.php] already running
+2021-02-15 00:39:42 pid:27355 Workerman[index.php] status 
+2021-02-15 00:39:50 pid:27357 Workerman[index.php] stop 
+2021-02-15 00:39:50 pid:27357 Workerman[index.php] is stopping ...
+2021-02-15 00:39:50 pid:26782 Workerman[index.php] stopping ...
+2021-02-15 00:39:50 pid:26782 Workerman[index.php] has been stopped
+2021-02-15 00:39:50 pid:27357 Workerman[index.php] stop success
+2021-02-15 00:39:57 pid:27359 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:42:37 pid:27538 Workerman[index.php] stop 
+2021-02-15 00:42:37 pid:27538 Workerman[index.php] is stopping ...
+2021-02-15 00:42:42 pid:27538 Workerman[index.php] stop fail
+2021-02-15 00:43:02 pid:27550 Workerman[index.php] status 
+2021-02-15 00:43:13 pid:27359 Workerman[index.php] stopping ...
+2021-02-15 00:43:13 pid:27359 Workerman[index.php] stopping ...
+2021-02-15 00:43:13 pid:27359 Workerman[index.php] has been stopped
+2021-02-15 00:43:27 pid:27575 Workerman[index.php] status 
+2021-02-15 00:43:27 pid:27575 Workerman[index.php] not run
+2021-02-15 00:43:34 pid:27582 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:45:01 pid:27582 Workerman[index.php] stopping ...
+2021-02-15 00:45:01 pid:27582 Workerman[index.php] has been stopped
+2021-02-15 00:45:06 pid:27818 Workerman[index.php] start in DEBUG mode
+2021-02-15 00:49:34 pid:27818 Workerman[index.php] stopping ...
+2021-02-15 00:49:34 pid:27818 Workerman[index.php] has been stopped
+2021-02-15 00:49:38 pid:28022 Workerman[index.php] start in DEBUG mode
+2021-02-15 01:00:08 pid:28022 Workerman[index.php] stopping ...
+2021-02-15 01:00:08 pid:28022 Workerman[index.php] has been stopped
+2021-02-15 01:00:12 pid:28289 Workerman[index.php] status 
+2021-02-15 01:00:12 pid:28289 Workerman[index.php] not run
