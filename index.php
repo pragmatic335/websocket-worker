@@ -9,10 +9,19 @@
 </head>
 
 <body>
-<div class="container">
-<!--    <textarea class="form-control" rows="3">-->
-<!---->
-<!--    </textarea>-->
+<div class="container" style = 'display: none'>
+
+    <div class="d-flex flex-column">
+        <div id="messages" class="overflow-auto" >
+        <p id="typing" class="test" style="opacity: 0">Печатаешь...</p>
+
+        </div>
+
+
+
+        <input id="massager">
+
+    </div>
 
 
 
@@ -27,6 +36,8 @@
         <input id="username"  class="custom-bord">
     </div>
 </div>
+
+
 <script src="app.js"></script>
 </body>
 </html>

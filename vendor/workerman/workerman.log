@@ -4426,3 +4426,140 @@ Stack trace:
 2021-02-21 22:18:12 pid:24924 Workerman[index.php] stopping ...
 2021-02-21 22:18:12 pid:24924 Workerman[index.php] has been stopped
 2021-02-21 22:18:15 pid:32026 Workerman[index.php] start in DEBUG mode
+2021-02-22 00:36:20 pid:32026 Workerman[index.php] stopping ...
+2021-02-22 00:36:20 pid:32026 Workerman[index.php] has been stopped
+2021-02-22 00:36:24 pid:35959 Workerman[index.php] start in DEBUG mode
+2021-02-22 00:38:07 pid:35959 Workerman[index.php] stopping ...
+2021-02-22 00:38:07 pid:35959 Workerman[index.php] has been stopped
+2021-02-22 00:38:08 pid:35996 Workerman[index.php] start in DEBUG mode
+2021-02-22 00:51:05 pid:35996 Workerman[index.php] stopping ...
+2021-02-22 00:51:05 pid:35996 Workerman[index.php] has been stopped
+2021-02-22 00:51:07 pid:36214 Workerman[index.php] start in DEBUG mode
+2021-02-22 00:51:42 pid:36215 Error: Cannot use object of type stdClass as array in /var/www/chat.online/server/index.php:19
+Stack trace:
+#0 /var/www/chat.online/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#1 /var/www/chat.online/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /var/www/chat.online/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /var/www/chat.online/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /var/www/chat.online/server/index.php(40): Workerman\Worker::runAll()
+#8 {main}
+2021-02-22 00:51:42 pid:36215 Worker[36215] process terminated
+2021-02-22 00:51:42 pid:36214 worker[none:36215] exit with status 64000
+2021-02-22 00:52:38 pid:36249 Error: Cannot use object of type stdClass as array in /var/www/chat.online/server/index.php:19
+Stack trace:
+#0 /var/www/chat.online/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#1 /var/www/chat.online/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /var/www/chat.online/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /var/www/chat.online/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /var/www/chat.online/server/index.php(40): Workerman\Worker::runAll()
+#10 {main}
+2021-02-22 00:52:38 pid:36249 Worker[36249] process terminated
+2021-02-22 00:52:38 pid:36214 worker[none:36249] exit with status 64000
+2021-02-22 00:53:14 pid:36270 Error: Cannot use object of type stdClass as array in /var/www/chat.online/server/index.php:19
+Stack trace:
+#0 /var/www/chat.online/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#1 /var/www/chat.online/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /var/www/chat.online/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /var/www/chat.online/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /var/www/chat.online/server/index.php(40): Workerman\Worker::runAll()
+#10 {main}
+2021-02-22 00:53:14 pid:36270 Worker[36270] process terminated
+2021-02-22 00:53:14 pid:36214 worker[none:36270] exit with status 64000
+2021-02-22 00:54:45 pid:36284 Error: Cannot use object of type stdClass as array in /var/www/chat.online/server/index.php:19
+Stack trace:
+#0 /var/www/chat.online/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#1 /var/www/chat.online/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /var/www/chat.online/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /var/www/chat.online/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /var/www/chat.online/server/index.php(40): Workerman\Worker::runAll()
+#10 {main}
+2021-02-22 00:54:45 pid:36284 Worker[36284] process terminated
+2021-02-22 00:54:45 pid:36214 worker[none:36284] exit with status 64000
+2021-02-22 00:55:06 pid:36323 Error: Cannot use object of type stdClass as array in /var/www/chat.online/server/index.php:19
+Stack trace:
+#0 /var/www/chat.online/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#1 /var/www/chat.online/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /var/www/chat.online/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /var/www/chat.online/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#9 /var/www/chat.online/server/index.php(40): Workerman\Worker::runAll()
+#10 {main}
+2021-02-22 00:55:06 pid:36323 Worker[36323] process terminated
+2021-02-22 00:55:06 pid:36214 worker[none:36323] exit with status 64000
+2021-02-22 00:55:53 pid:36214 Workerman[index.php] stopping ...
+2021-02-22 00:55:53 pid:36214 Workerman[index.php] has been stopped
+2021-02-22 00:56:09 pid:36351 Workerman[index.php] start in DEBUG mode
+2021-02-22 00:56:21 pid:36352 Error: Cannot use object of type stdClass as array in /var/www/chat.online/server/index.php:21
+Stack trace:
+#0 /var/www/chat.online/vendor/workerman/workerman/Connection/TcpConnection.php(637): {closure}()
+#1 /var/www/chat.online/vendor/workerman/workerman/Events/Select.php(293): Workerman\Connection\TcpConnection->baseRead()
+#2 /var/www/chat.online/vendor/workerman/workerman/Worker.php(2430): Workerman\Events\Select->loop()
+#3 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux()
+#5 /var/www/chat.online/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#6 /var/www/chat.online/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#7 /var/www/chat.online/server/index.php(42): Workerman\Worker::runAll()
+#8 {main}
+2021-02-22 00:56:21 pid:36352 Worker[36352] process terminated
+2021-02-22 00:56:21 pid:36351 worker[none:36352] exit with status 64000
+2021-02-22 00:56:55 pid:36351 Workerman[index.php] stopping ...
+2021-02-22 00:56:55 pid:36351 Workerman[index.php] has been stopped
+2021-02-22 00:56:56 pid:36379 Workerman[index.php] start in DEBUG mode
+2021-02-22 01:04:10 pid:36379 Workerman[index.php] stopping ...
+2021-02-22 01:04:10 pid:36379 Workerman[index.php] has been stopped
+2021-02-22 01:09:01 pid:36737 Workerman[index.php] start in DEBUG mode
+2021-02-22 01:14:39 pid:36737 Workerman[index.php] stopping ...
+2021-02-22 01:14:39 pid:36737 Workerman[index.php] has been stopped
+2021-02-22 01:14:40 pid:36896 Workerman[index.php] start in DEBUG mode
+2021-02-22 01:16:50 pid:36896 Workerman[index.php] stopping ...
+2021-02-22 01:16:50 pid:36896 Workerman[index.php] has been stopped
+2021-02-22 01:16:50 pid:36936 Workerman[index.php] start in DEBUG mode
+2021-02-22 01:19:03 pid:36936 Workerman[index.php] stopping ...
+2021-02-22 01:19:03 pid:36936 Workerman[index.php] has been stopped
+2021-02-22 01:19:05 pid:36981 Workerman[index.php] start in DEBUG mode
+2021-02-22 02:02:14 pid:36981 Workerman[index.php] stopping ...
+2021-02-22 02:02:14 pid:36981 Workerman[index.php] has been stopped
+2021-02-22 02:02:25 pid:38399 Workerman[index.php] start in DEBUG mode
+2021-02-22 02:38:20 pid:38399 Workerman[index.php] stopping ...
+2021-02-22 02:38:20 pid:38399 Workerman[index.php] has been stopped
+2021-02-22 02:38:22 pid:39343 Workerman[index.php] start in DEBUG mode
+2021-02-22 02:42:47 pid:39343 Workerman[index.php] stopping ...
+2021-02-22 02:42:47 pid:39343 Workerman[index.php] has been stopped
+2021-02-22 02:42:48 pid:39458 Workerman[index.php] start in DEBUG mode
+2021-02-22 02:44:41 pid:39458 Workerman[index.php] stopping ...
+2021-02-22 02:44:41 pid:39458 Workerman[index.php] has been stopped
+2021-02-22 02:44:42 pid:39485 Workerman[index.php] start in DEBUG mode
+2021-02-22 02:45:20 pid:39485 Workerman[index.php] stopping ...
+2021-02-22 02:45:20 pid:39485 Workerman[index.php] has been stopped
+2021-02-22 02:45:21 pid:39496 Workerman[index.php] start in DEBUG mode
+2021-02-22 02:46:15 pid:39496 Workerman[index.php] stopping ...
+2021-02-22 02:46:15 pid:39496 Workerman[index.php] has been stopped
+2021-02-22 02:46:15 pid:39537 Workerman[index.php] start in DEBUG mode
+2021-02-22 03:16:21 pid:39537 Workerman[index.php] stopping ...
+2021-02-22 03:16:21 pid:39537 Workerman[index.php] has been stopped
+2021-02-22 03:16:24 pid:40103 Workerman[index.php] start in DEBUG mode
+2021-02-22 03:19:22 pid:40103 Workerman[index.php] stopping ...
+2021-02-22 03:19:22 pid:40103 Workerman[index.php] has been stopped
+2021-02-22 03:19:23 pid:40156 Workerman[index.php] start in DEBUG mode
