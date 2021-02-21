@@ -1,0 +1,10 @@
+.custom-bord {
+    /*border: none;*/
+}
+#register-block {
+    position: absolute !important;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+}

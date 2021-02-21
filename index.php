@@ -1,35 +1,32 @@
-<?php
-require __DIR__ . '/vendor/autoload.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="my.style.css" rel="stylesheet">
 
-$worker = new \Workerman\Worker('websocket://0.0.0.0:8001');
-$worker->count = 4;
+    <title>Title</title>
+</head>
 
-$worker->onConnect = function ($connection) {
-//  $connection->send('message');
-// \Workerman\Lib\Timer::add(1, function() use($connection) {
-//     $connection->send(' Hello from server ');
-// });
-    echo 'New connection' . PHP_EOL;
-};
-
-$worker->onMessage = function ($connection, $data) use ($worker) {
-    echo(count($worker->connections));
-
-    foreach($worker->connections as $clientConnection) {
-        $clientConnection->send($data);
-    }
-};
-
-$worker->onClose = function ($connection, $data) use($worker) {
-    echo 'Connection closed' . PHP_EOL;
-};
-
-//$worker->onMessage = function($connection, $data) {
-//   $connection->send($data);
-//};
+<body>
+<div class="container">
+<!--    <textarea class="form-control" rows="3">-->
+<!---->
+<!--    </textarea>-->
 
 
 
-\Workerman\Worker::runAll();
 
+</div>
+<div id="register-block">
+    <div class = 'row'>
+        <label style="font-size: 5rem" class="text-center">Ты кто?</label>
+    </div>
 
+    <div class = 'row'>
+        <input id="username"  class="custom-bord">
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

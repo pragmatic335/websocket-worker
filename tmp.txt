@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Title</title>
+</head>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .unit {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: green;
+        border: 3px solid black;
+        top: 0;
+        left: 0;
+    }
+</style>
+<body id="wrapper">
+<div class="unit" id="unit"></div>
+
+<div class="container" >
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+const bodyElement = document.getElementById('wrapper')
+const unit = document.getElementById('unit')
+unit.style.backgroundColor = Math.random() < 0.5? 'red': 'green'
+
+// createElements();
+
+
+//открываем websocket соединения, поддержка которого есть во всех браузера в наше время
+const ws = new WebSocket('ws://0.0.0.0:8001')
+
+// ws.addEventListener('message', (event) => {
+//     console.log('Message from server ' + event.data)
+// })
+
+bodyElement.addEventListener('keyup', event => {
+    let top = unit.style.top ? unit.style.top : 0
+    let left = unit.style.left ? unit.style.left : 0
+    const step = 5
+
+    if(event.code === 'ArrowUp') {
+        unit.style.top = parseInt(top) - step + 'px'
+    } else if (event.code === 'ArrowDown') {
+        unit.style.top = parseInt(top) + step + 'px'
+    } else if (event.code === 'ArrowLeft') {
+        unit.style.left = parseInt(left) - step + 'px'
+    } else if (event.code === 'ArrowRight') {
+        unit.style.left = parseInt(left) + step + 'px'
+    }
+
+    let positionData = {
+        top: unit.style.top,
+        left: unit.style.left,
+    }
+
+    ws.send(JSON.stringify(positionData))
+})
+
+
+
+ws.onmessage = response => {
+    let positionData = JSON.parse(response.data);
+    console.log(positionData.top);
+    console.log(positionData.left);
+    unit.style.top = positionData.top;
+    unit.style.left = positionData.left;
+}
+
+
+function createElements() {
+    let p = document.createElement('p');
+    p.innerText = 'Привет';
+    document.body.append(p);
+}
+
+
+
+
+
