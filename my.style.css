@@ -19,14 +19,22 @@ body {
     /*width: max-content;*/
     padding-left: 25px;
     padding-right: 25px;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 120px);
     margin-bottom: 10px;
-    background-color: whitesmoke;
+
+    border-bottom: 2px solid;
+    border-color: whitesmoke;
+    /*background-color: whitesmoke;*/
 }
 
 .test {
     transition-property: opacity;
-    transition: 2s;
+    transition-duration: 0.5s;
+    /*font-weight: lighter;*/
 }
+
+/*#massager {*/
+/*    font-size: 30px;*/
+/*}*/
 
 

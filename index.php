@@ -13,13 +13,18 @@
 
     <div class="d-flex flex-column">
         <div id="messages" class="overflow-auto" >
-        <p id="typing" class="test" style="opacity: 0">Печатаешь...</p>
+
 
         </div>
 
 
+        <p id="typing" class="test" style="opacity: 0">Печатаешь...</p>
 
-        <input id="massager">
+        <div class="form-floating">
+            <input id="massager" class="form-control" placeholder="отправь меня...">
+            <label for="massager" >отправь сообщение в чат...</label>
+        </div>
+<!--        <input  placeholder="отправь меня...">-->
 
     </div>
 
@@ -33,7 +38,7 @@
     </div>
 
     <div class = 'row'>
-        <input id="username"  class="custom-bord">
+        <input id="username"  class="custom-bord" >
     </div>
 </div>
 
