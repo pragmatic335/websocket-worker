@@ -24,12 +24,8 @@
             <input id="massager" class="form-control" placeholder="отправь меня...">
             <label for="massager" >отправь сообщение в чат...</label>
         </div>
-<!--        <input  placeholder="отправь меня...">-->
 
     </div>
-
-
-
 
 </div>
 <div id="register-block">
