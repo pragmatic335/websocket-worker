@@ -16,7 +16,6 @@ body {
 }
 
 #messages {
-    /*width: max-content;*/
     padding-left: 25px;
     padding-right: 25px;
     height: calc(100vh - 120px);
